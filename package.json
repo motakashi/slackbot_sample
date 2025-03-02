@@ -1,0 +1,26 @@
+{
+  "name": "slackbot_sample",
+  "version": "1.0.0",
+  "description": "slackのbotサンプル",
+  "main": "index.js",
+  "scripts": {
+    "bot-image": "node bot-image.js",
+    "bot-message": "node bot-message.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motakashi/slackbot_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motakashi/slackbot_sample/issues"
+  },
+  "homepage": "https://github.com/motakashi/slackbot_sample#readme",
+  "dependencies": {
+    "@slack/web-api": "^7.8.0",
+    "axios": "^1.8.1",
+    "fs": "^0.0.1-security"
+  }
+}
